@@ -1,3 +1,3 @@
-# lita-datacite
+# lita
 
 Lita chat bot for DataCite.
