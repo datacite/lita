@@ -1,4 +1,4 @@
-FROM phusion/passenger-full:0.9.18
+FROM phusion/passenger-full:0.9.19
 MAINTAINER Martin Fenner "mfenner@datacite.org"
 
 # Allow app user to read /etc/container_environment
@@ -26,7 +26,7 @@ WORKDIR /home/app/webapp
 RUN mkdir -p /home/app/webapp/vendor/bundle && \
     chown -R app:app /home/app/webapp && \
     chmod -R 755 /home/app/webapp && \
-    sudo -u app bundle install --path vendor/bundle
+    /sbin/setuser app bundle install --path vendor/bundle
 
 # Add runit script
 RUN mkdir /etc/service/lita
