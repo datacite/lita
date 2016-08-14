@@ -12,8 +12,8 @@ Lita.configure do |config|
   config.handlers.google_images.google_cse_key = ENV["GOOGLE_KEY"]
 
   # librato
-  config.handlers.libratoo.email = ENV["LIBRATOO_EMAIL"]
-  config.handlers.libratoo.api_key = ENV["LIBRATOO_API_KEY"]
+  config.handlers.libratoo.email = ENV["LIBRATO_EMAIL"]
+  config.handlers.libratoo.api_key = ENV["LIBRATO_API_KEY"]
 
   # pivotal tracker
   config.handlers.pivotal_tracker.token = ENV["PIVOTAL_TOKEN"]
