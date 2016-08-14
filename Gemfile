@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'lita', '~> 4.7'
 gem 'lita-slack', '~> 1.7', '>= 1.7.2'
+
 gem 'lita-google-images', '~> 3.1'
 gem 'lita-xkcd', '~> 0.0.5'
 gem 'lita-wikipedia', '~> 0.1.0'
@@ -12,3 +13,4 @@ gem 'lita-pivotal-tracker', '~> 0.1.0'
 gem 'lita-statuspage', '~> 0.3.0'
 gem 'lita-timezone', '~> 0.1.0'
 gem 'lita-urban-dictionary', '~> 1.1'
+gem 'lita-docker-hub', '~> 0.2.0'

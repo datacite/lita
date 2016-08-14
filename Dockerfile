@@ -33,4 +33,4 @@ RUN mkdir /etc/service/lita
 ADD vendor/docker/lita.sh /etc/service/lita/run
 
 # Expose lita
-EXPOSE 80
+EXPOSE 8080
