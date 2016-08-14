@@ -40,7 +40,7 @@ GEM
       thor (>= 0.18.1)
     lita-applause (0.0.2)
       lita (>= 4.0)
-    lita-docker-hub (0.2.1)
+    lita-docker-hub (0.2.2)
       lita (>= 4.7)
     lita-google-images (3.1.0)
       lita (>= 4.0)
@@ -108,7 +108,7 @@ PLATFORMS
 DEPENDENCIES
   lita (~> 4.7)
   lita-applause (~> 0.0.1)
-  lita-docker-hub (~> 0.2.0)
+  lita-docker-hub (~> 0.2.2)
   lita-google-images (~> 3.1)
   lita-libratoo (~> 0.1.4)
   lita-location-decision (~> 0.0.3)
