@@ -6,7 +6,7 @@ Lita.configure do |config|
   config.adapters.slack.token = ENV["SLACK_TOKEN"]
   # config.adapters.slack.link_names = true
   # config.adapters.slack.parse = "full"
-  config.adapters.slack.unfurl_links = false
+  # config.adapters.slack.unfurl_links = false
   # config.adapters.slack.proxy = ENV["SLACK_LITA_PROXY"]
   config.robot.admins = ENV["SLACK_LITA_ADMINS"].to_s.split(",")
 
